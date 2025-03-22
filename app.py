@@ -4,6 +4,7 @@ import numpy as np
 import cv2
 import tempfile
 import os
+os.system("pip install --upgrade --force-reinstall moviepy")
 import imageio
 from moviepy.editor import VideoFileClip
 
